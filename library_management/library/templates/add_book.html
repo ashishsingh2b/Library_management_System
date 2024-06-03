@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+</head>
+<body>
+    <h1>Hellow</h1>
+<div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="">Book Name</label>
+            <input type="text" name='name'>
+        </div>
+
+        <div>
+            <label for="">Author Name</label>
+            <input type="text" name='author'>
+        </div>
+
+        <div>
+            <label for="">ISBN</label>
+            <input type="text" name='isbn'>
+        </div>
+        <div>
+            <label for="">Category</label>
+            <input type="text" name='category'>
+        </div>
+
+        <button type="submit">Add Book</button>
+    </form>
+</div>
+</body>
+</html>
